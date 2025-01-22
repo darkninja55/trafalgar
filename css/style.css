@@ -470,8 +470,37 @@ ul {
             text-decoration-skip-ink: none;
     color: #1F1534;
     opacity: 50%;
+    
+   
 }
-
+.nav__dropdown-list{
+    display: none;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    flex-direction: column;
+    row-gap: 10px;
+    padding:10px;
+    left: -8px;
+    background-color: #fff;
+    width: 120px;
+}
+.nav__item{
+    position: relative;
+}
+.nav__dropdown-link{
+    color: #458FF6;
+}
+.nav__dropdown-link:hover{
+    color: #1F1534;
+}
+.nav__dropdown-link:active{
+    opacity:80%;
+    color: #1F1534;
+}
+   
+.nav__item:hover .nav__dropdown-list{
+    display: flex;
+}
 .nav__link--active:active {
     opacity: 100%;
 }
