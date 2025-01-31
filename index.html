@@ -4,12 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="./css/style.css"> -->
-    <link rel="stylesheet" href="./css/minified.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./css/minified.css"> -->
     <title>Document</title>
 </head>
 
 <body>
+    <script src="button.js" defer></script>
     <header class="site-header header">
         <div class="container">
             <div class="header__wrapper">
@@ -35,7 +36,13 @@
                             
                         </li>
                         <li class="nav__item">
-                            <a class="nav__link--active nav__link" href="#">About us</a>
+                            <a class="nav__button" href="#">
+                                <form class="switch-form">
+                                <label class="switch3">
+                                   <input class="switch-checked3" type="checkbox">
+                                   <span class="switch-box3"></span>
+                                </label>
+                             </form></a>
                         </li>
                     </ul>
                 </nav>
@@ -247,23 +254,23 @@
                 <ul class="footer__list company">
                     <li class="company__item"><h3 class="company__title"><strong>Company</strong></h3></li>
                     <li class="company__item"></li>
-                    <li class="company__item"><a href="#">About</a></li>
-                    <li class="company__item"><a href="#">About</a></li>
-                    <li class="company__item"><a href="#">About</a></li>
+                    <li class="company__item"><a class="help__link" href="#">About</a></li>
+                    <li class="company__item"><a class="help__link" href="#">About</a></li>
+                    <li class="company__item"><a class="help__link" href="#">About</a></li>
                 </ul>
                 <ul class="footer__list region">
                     <li class="region__item"><h3 class="region__title"><strong>Region</strong></h3></li>
-                    <li class="region__item"><a href="#">About</a></li>
-                    <li class="region__item"><a href="#">About</a></li>
-                    <li class="region__item"><a href="#">About</a></li>
-                    <li class="region__item"><a href="#">About</a></li>
+                    <li class="region__item"><a class="help__link" href="#">About</a></li>
+                    <li class="region__item"><a class="help__link" href="#">About</a></li>
+                    <li class="region__item"><a class="help__link" href="#">About</a></li>
+                    <li class="region__item"><a class="help__link" href="#">About</a></li>
                 </ul>
                 <ul class="footer__list help">
                     <li class="help__item"><h3 class="help__title"><strong>Help</strong></h3></li>
-                    <li class="help__item"><a href="#">About</a></li>
-                    <li class="help__item"><a href="#">About</a></li>
-                    <li class="help__item"><a href="#">About</a></li>
-                    <li class="help__item"><a href="#">About</a></li>
+                    <li class="help__item"><a class="help__link" href="#">About</a></li>
+                    <li class="help__item"><a class="help__link" href="#">About</a></li>
+                    <li class="help__item"><a class="help__link" href="#">About</a></li>
+                    <li class="help__item"><a class="help__link" href="#">About</a></li>
                 </ul>
             </div>
         </div>

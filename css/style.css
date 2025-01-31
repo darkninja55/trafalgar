@@ -458,6 +458,7 @@ ul {
     -webkit-column-gap: 40px;
        -moz-column-gap: 40px;
             column-gap: 40px;
+            align-items: center;
 }
 
 .nav__link {
@@ -981,3 +982,55 @@ footer{
     row-gap:10px;
     color: #fff;
 }
+.help__link{
+    color: #fff;
+}
+.switch-box3{
+    display: inline-block;
+    width: 125px;
+    height: 70px;
+    background-image: url(../images/sun-bg.svg);
+    background-size: 100% 100%;
+    border-radius: 50px;
+    position: relative;
+    transition-duration: 1s;
+ }
+ 
+ .switch-box3::before{
+    position: absolute;
+    display: inline-block;
+    top: 16px;
+    left: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+    transition-duration: 1s;
+    content: "";
+    background-image: url();
+ }
+ 
+ .switch-checked3{
+    display: none;
+ }
+ 
+ .switch-checked3:checked + .switch-box3::before{
+    left: px;
+    background-color: gray;
+   
+    width: 40px;
+    height: 40px;
+    left: 73px;
+ }
+ 
+ .switch-checked3:checked + .switch-box3{
+    background-image: url(../images/moon.svg);
+    background-size: 100% 100%;
+    transition: 1s;
+ }
+ .switch-form{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+ }
