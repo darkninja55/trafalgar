@@ -1,6 +1,7 @@
 let body = document.querySelector("body");
 let switchCheckbox = document.querySelector(".switch-checked3");
-let textElements = document.querySelectorAll(".text-element,a"); // выбираем все элементы с классом text-element
+let textElements = document.querySelectorAll(".text-element,a");
+
 
 switchCheckbox.addEventListener("change", () => {
     if (switchCheckbox.checked) {
